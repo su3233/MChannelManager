@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--文本-->
+    <color name="tv_normal">#ff454545</color>
+    <color name="tv_pressed">#ffcc3131</color>
+
+    <!--按钮-->
+    <color name="bt">#03DAC5</color>
+
+    <!--背景-->
+    <color name="bg_selected">#ffffff</color>
+    <color name="bg_selected_stroke">#cc3131</color>
+    <color name="bg_disable">#efefef</color>
+    <color name="bg_disable_stroke">#cdcdcd</color>
+    <color name="bg_normal">#f5f5f5</color>
+    <color name="bg_normal_stroke">#cdcdcd</color>
+    <color name="bg_common">#d2d2d2</color>
+    <color name="bg_common_stroke">#f5f5f5</color>
+</resources>
