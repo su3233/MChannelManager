@@ -20,4 +20,6 @@
     <color name="bg_normal_stroke">#cdcdcd</color>
     <color name="bg_common">#d2d2d2</color>
     <color name="bg_common_stroke">#f5f5f5</color>
+    <color name="bg_pressed">#cdcdcd</color>
+    <color name="bg_pressed_stroke">#e3e3e3</color>
 </resources>

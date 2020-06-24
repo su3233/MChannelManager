@@ -15,6 +15,7 @@
         android:gravity="center_vertical">
 
         <TextView
+            android:id="@+id/tv_my"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="我的频道"
@@ -48,16 +49,15 @@
         android:stretchMode="columnWidth"
         android:verticalSpacing="14dp" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="14dp" />
 
     <TextView
+        android:id="@+id/tv_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="14dp"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="14dp"
         android:text="更多频道"
         android:textSize="18sp" />
 
@@ -65,6 +65,7 @@
         android:id="@+id/gv_more"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         android:layout_marginLeft="14dp"
         android:layout_marginRight="14dp"
         android:gravity="center"
