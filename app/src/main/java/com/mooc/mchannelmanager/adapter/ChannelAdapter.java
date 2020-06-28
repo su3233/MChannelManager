@@ -137,7 +137,7 @@ public class ChannelAdapter extends BaseAdapter {
      * @param index
      */
     public void remove(int index) {
-        if (index > 0 && index < datas.size()) {
+        if (index >= 0 && index < datas.size()) {
             datas.remove(index);
         }
         notifyDataSetChanged();
